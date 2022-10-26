@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Celebrate</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap');
+    </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="down">
+                <i class="fa-solid fa-bars"></i>
+                <img src="./Assest/Logo.png" alt="logo" class="logo">
+            </div> 
+            <div class="context">
+                <ul>
+                    <li><a href="#">Wedding Cards</a></li>
+                    <li><a href="#">Birthday Cards</a></li>
+                    <li><a href="#">Feeling Cards</a></li>
+                    <li><a href="#">Anniversary Cards</a></li>
+                </ul>
+            </div>
+            <div class="contact-page">
+                <ul>
+                    <li><a href="#">Login | Signup</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="heigt"> 
+    <div class="background-container">
+        <h1 class="fff">Digital Card Details</h1>
+        <div class="bg-white flex ">
+            <div class="images">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./Assest/Page1.jpg" alt="image" class=" fir-img active">
+                        </div>
+                        <div class="swiper-slide"><img src="./Assest/Page2.jpg" alt="image" class="sec-img"></div>
+                        <div class="swiper-slide"><img src="./Assest/Page3.jpg" alt="image" class=" third-img"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-title">
+                <h1>Card Title</h1>
+                <div class="main-span">
+                    <p>$499 <span class="del">$2000</span></p>
+                    <p class="green">75%Off</p>
+                </div>
+                <p class="para">Donec eu ornare mi. Sed finibus
+                    condimentum mauris, ut dictum eros
+                    maximus vitae. Nullam
+                    condimentum tortor ac elit feugiat
+                    iaculis. Aenean mauris nisl, blandit
+                </p>
+                <button>Try this Card</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <div class="lastcontainer">
+        <h2>Features</h2>
+        <div class="command">
+            <div class="first-coma">
+                
+                <div class="circles">
+                    <div class="dot"></div>
+                </div>
+                <p>Create your card in just 5 mins</p>
+            </div>
+            <div class="second-coma">
+                <div class="circles">
+                    <div class="dot"></div>
+                </div>
+                <p>Customize the Text with "Edit this Page" Option</p>
+            </div>
+            <div class="third-coma">
+                
+                <div class="circles">
+                    <div class="dot"></div>
+                </div>
+                <p>Editing is available after purchase also</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "1",
+        centeredSlides: true,
+        spaceBetween: -100,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
+
+
+</html>
